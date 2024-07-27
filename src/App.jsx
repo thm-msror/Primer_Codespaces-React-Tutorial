@@ -28,7 +28,11 @@ const siteProps = {
   title: "Junior Undergraduate Student | B.Sc. - IT / Data Science and AI",
   email: "tehreem.masroor@gmail.com",
   gitHub: "https://github.com/thm-msror",
+  instagram: "",
   linkedIn: "https://www.linkedin.com/in/thm-msror/",
+  medium: "",
+  twitter: "microsoft",
+  youTube: "Code",
 };
 
 const primaryColor = "#4E567E";
