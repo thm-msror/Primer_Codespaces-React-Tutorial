@@ -25,14 +25,10 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Tehreem Masroor",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  title: "Junior Undergraduate Student | B.Sc. - IT / Data Science and AI",
+  email: "tehreem.masroor@gmail.com",
+  gitHub: "https://github.com/thm-msror",
+  linkedIn: "https://www.linkedin.com/in/thm-msror/",
 };
 
 const primaryColor = "#4E567E";
