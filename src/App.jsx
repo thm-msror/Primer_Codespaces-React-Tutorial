@@ -25,11 +25,11 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Tehreem Masroor",
-  title: "Junior Undergraduate Student | B.Sc. - IT / Data Science and AI",
+  title: "Junior Undergraduate Student",
   email: "tehreem.masroor@gmail.com",
-  gitHub: "https://github.com/thm-msror",
+  gitHub: "thm-msror",
   instagram: "",
-  linkedIn: "https://www.linkedin.com/in/thm-msror/",
+  linkedIn: "thm-msror",
   medium: "",
   twitter: "microsoft",
   youTube: "Code",
@@ -42,7 +42,10 @@ const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={siteProps.name} title={siteProps.title} />
+      <div id="home-container">
+        <Home name={siteProps.name} title={siteProps.title} />
+      </div>
+      {/*<Home name={siteProps.name} title={siteProps.title} />*/}
       <About />
       <Portfolio />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
