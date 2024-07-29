@@ -6,6 +6,8 @@
 
 html,
 body {
+  /* add a smooth scroll */
+  scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
