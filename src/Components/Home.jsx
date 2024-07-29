@@ -27,7 +27,7 @@ const imageAltText = "laptop on desk with coffee cup";
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+      <img className="background" src={image} alt={imageAltText} />
       <div style={{ position: "absolute", bottom: "1rem", left: "2rem", width: "15rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
