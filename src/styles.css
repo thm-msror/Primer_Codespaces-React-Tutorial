@@ -28,6 +28,12 @@ section {
   width: 100vw;
 }
 
+.section-title {
+  margin-bottom: 0.5rem;
+  text-align: center; /* Center the title */
+  padding-bottom: 1.5rem;
+}
+
 section.min-height {
   min-height: 100vh;
 }
@@ -137,4 +143,38 @@ img.socialIcon {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.education-container {
+  padding: 2rem;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.education-cell {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  transition: transform 0.3s;
+}
+
+.education-cell:hover {
+  transform: scale(1.05);
+}
+
+.education-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center; /* Center the title */
+}
+
+.education-degree,
+.education-year {
+  font-size: 1rem;
+  margin: 0.25rem 0;
 }
