@@ -34,6 +34,45 @@ section {
   padding-bottom: 1.5rem;
 }
 
+/* styles.css */
+#home {
+  position: relative;
+  min-height: 100vh; /* Ensure the section takes the full viewport height */
+}
+
+.background {
+  width: 100%;
+  height: auto;
+}
+
+.name-title {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  top: 10%; /* Adjust this value to position the name on top of the laptop */
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #333; /* Adjust this color to be closer to your background picture color */
+}
+
+.name-title h1 {
+  margin-top: 2rem;
+  font-size: 4.5rem; /* Adjust the font size as needed */
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.name-title h2 {
+  margin-top: 28.5rem;
+  font-size: 3rem; /* Adjust the font size as needed */
+  color: #454545; /* Adjust this color to be closer to your background picture color */
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.name-title h1:hover,
+.name-title h2:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
 section.min-height {
   min-height: 100vh;
 }

@@ -7,6 +7,7 @@
 
 import React from "react";
 import PropTypes from "prop-types";
+import "../styles.css"; // Ensure you import the CSS file
 
 /**
  * Home background image
@@ -27,7 +28,7 @@ const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
       <img className="background" src={image} alt={imageAltText} />
-      <div style={{ position: "absolute", bottom: "1rem", left: "2rem", width: "15rem" }}>
+      <div className="name-title">
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>
