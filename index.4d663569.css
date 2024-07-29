@@ -1,5 +1,9 @@
 @import "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap";
-html, body {
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -17,6 +21,49 @@ div#main {
 section {
   width: 100vw;
   position: relative;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: .5rem;
+  padding-bottom: 1.5rem;
+}
+
+#home {
+  min-height: 100vh;
+  position: relative;
+}
+
+.background {
+  width: 100%;
+  height: auto;
+}
+
+.name-title {
+  text-align: center;
+  color: #333;
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.name-title h1 {
+  margin-top: 2rem;
+  font-size: 4.5rem;
+  transition: text-shadow .3s ease-in-out;
+}
+
+.name-title h2 {
+  color: #454545;
+  margin-top: 28.5rem;
+  font-size: 3rem;
+  transition: text-shadow .3s ease-in-out;
+}
+
+.name-title h1:hover, .name-title h2:hover {
+  text-shadow: 0 0 10px #fffc, 0 0 20px #fff9, 0 0 30px #fff6;
 }
 
 section.min-height {
@@ -116,6 +163,51 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.education-container {
+  padding: 2rem;
+}
+
+.education-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  display: grid;
+}
+
+.education-cell {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform .3s;
+}
+
+.education-cell:hover {
+  transform: scale(1.05);
+}
+
+.education-title {
+  text-align: center;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+}
+
+.education-degree, .education-year {
+  margin: .25rem 0;
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
